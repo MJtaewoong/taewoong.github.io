@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  height: 1000vh;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+#container .wrap .box2 > div,
+.box3 > div {
+  margin-bottom: 50px;
+}
+
+#container .wrap h1 {
+  color: aquamarine;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#container .wrap .box2 > div:first-child {
+  width: 150px;
+}
+
+#container .wrap > div table,
+.box2 > div:first-child {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+#container .wrap table,
+td,
+th {
+  border: none;
+}
+
+#container .wrap td,
+th {
+  padding-right: 10px;
+}
+
+#container .wrap > div {
+  width: 30%;
+  float: left;
+}
+
+#container .wrap > div:nth-child(2) {
+  margin: 0 5%;
+}
+
+#container .wrap > .box1 .pic {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+#container .wrap > .box1 strong {
+  font-size: 26px;
+}
+
+#container .wrap > .box1 hr {
+  width: 30px;
+  border-color: #222;
+  margin: 20px 5px;
+}
+
+#container .wrap > .box1 img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+/* box2 */
+
+#container .wrap > .box2 {
+  font-size: 12px;
+}
+
+/* box3 */
+
+#container .wrap > .box3 {
+  font-size: 12px;
+}
